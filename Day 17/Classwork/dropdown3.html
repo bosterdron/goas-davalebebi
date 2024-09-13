@@ -1,0 +1,19 @@
+<form action="/submit" method="POST">
+    <label for="fullname">მთლიანი სახელი:</label>
+    <input type="text" id="fullname" name="fullname" required><br><br>
+
+    <label for="email">მეილი:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">პაროლი:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="gender">სქესი:</label>
+    <select name="gender" id="gender">
+        <option value="male">კაცი</option>
+        <option value="female">ქალი</option>
+        <option value="other">სხვა</option>
+    </select><br><br>
+
+    <input type="submit" value="გაგზავნა">
+</form>
